@@ -1,0 +1,7 @@
+import math
+def f(x):
+    return math.sqrt(x+3) - x + 1
+#list of values to plug in
+for x in [0,1, math.sqrt(2),math.sqrt(2)-1]:
+    print ("f({:.2f}) = {:.1f}".format(x,f(x)))
+    
